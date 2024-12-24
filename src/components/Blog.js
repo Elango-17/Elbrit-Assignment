@@ -64,16 +64,16 @@ function Blog() {
               key={index}
               className={`relative rounded shadow hover:shadow-lg overflow-hidden transform transition-transform duration-300 hover:scale-105 ${
                 blog.size === "large"
-                  ? "col-span-2 row-span-2 h-96"
+                  ? "col-span-2 row-span-2 h-96 sm:h-80"
                   : blog.size === "medium"
-                  ? "row-span-2 h-72"
-                  : "h-40"
+                  ? "row-span-2 h-72 sm:h-60 sm:ml-10"
+                  : "h-40 sm:h-32  sm:ml-10"
               }`}
             >
               <img
                 src={blog.img}
                 alt={blog.title}
-                className="w-full h-full object-cover"
+                className="w-full h-full object-cover max-w-xs mx-auto"
               />
               <div className="absolute top-0 left-0 py-2">
                 <span
@@ -86,7 +86,7 @@ function Blog() {
                   {blog.date}
                 </span>
               </div>
-              <div className="absolute bottom-0 left-0 right-0 bg-black bg-opacity-50 p-2 transition-opacity duration-300 opacity-100 hover:opacity-90">
+              <div className="absolute bottom-0 left-0 right-0 bg-black bg-opacity-50 p-2 transition-opacity duration-300 opacity-100 hover:opacity-90 max-w-xs mx-auto">
                 <h3 className="text-sm font-bold text-white">{blog.title}</h3>
               </div>
             </div>

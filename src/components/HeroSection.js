@@ -51,7 +51,7 @@ function HeroSection() {
         </div>
 
         {/* Right Content (Features) */}
-        <div className="text-blue-900 space-y-9">
+        <div className="text-blue-900 space-y-9 mt-5">
           {/* Vitamins */}
           <div className="flex items-center space-x-4">
             <div

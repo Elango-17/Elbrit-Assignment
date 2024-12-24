@@ -14,7 +14,7 @@ function Footer() {
           {/* Phone Section */}
           <div>
             <div
-              className="flex items-center justify-center md:justify-start gap-4 rounded-xl p-3"
+              className="flex items-center justify-center md:justify-start gap-4 rounded-xl p-3 w-full max-w-xs mx-auto"
               style={{ backgroundColor: "rgba(33, 93, 114, 1)" }}
             >
               <FaPhoneAlt className="text-xl" />
@@ -28,7 +28,7 @@ function Footer() {
           {/* Email Section */}
           <div>
             <div
-              className="flex items-center justify-center md:justify-start gap-4 rounded-xl p-3"
+              className="flex items-center justify-center md:justify-start gap-4 rounded-xl p-3 w-full max-w-xs mx-auto"
               style={{ backgroundColor: "rgba(33, 93, 114, 1)" }}
             >
               <FaEnvelope className="text-xl" />
@@ -42,7 +42,7 @@ function Footer() {
           {/* Address Section */}
           <div>
             <div
-              className="flex items-center justify-center md:justify-start gap-4 rounded-xl p-3"
+              className="flex items-center justify-center md:justify-start gap-4 rounded-xl p-3 w-full max-w-xs mx-auto"
               style={{ backgroundColor: "rgba(33, 93, 114, 1)" }}
             >
               <FaMapMarkerAlt className="text-xl" />
@@ -67,7 +67,7 @@ function Footer() {
           </div>
 
           {/* Description Section */}
-          <div className="text-justify  md:flex-grow mx-20">
+          <div className="text-justify md:flex-grow mx-20">
             <p>
               Your health, physical and emotional well-being is important to us.
               We are always by your side and have made it even easier for you to
